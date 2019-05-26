@@ -1,0 +1,23 @@
+<div class="cardComponent" flex>
+<br/>
+<br/>
+<mat-card class="chat-card"><mat-toolbar color="primary" flex>
+  <mat-toolbar-row>
+    <span>Analyser Bot @ Service</span>
+  </mat-toolbar-row></mat-toolbar>
+  <br/>
+  <div #scrollMe [scrollTop]="scrollMe.scrollHeight" class="conversationComponent" flex>
+   <div *ngFor="let chat of chatConv" [ngClass]="{
+            'userMsg' : chat.key == 'user',
+            'botMsg' : chat.key == 'BOT'
+         }">
+    {{chat.value}}<br/>
+   </div>
+  </div>
+  <div id="footer"><mat-form-field >
+    <input [(ngModel)]="chatInput" matInput placeholder="Enter the message .. " #sendMessage>
+  </mat-form-field> </div>
+  <button id="button" mat-raised-button color="primary" (click)="msgSent()">Send</button>
+   
+</mat-card>
+</div>

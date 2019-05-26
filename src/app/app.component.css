@@ -1,0 +1,39 @@
+.mat-toolbar.mat-primary {
+    background: cornflowerblue;
+    color: #fff;
+}
+
+.mat-form-field {
+    display: inline;
+    position: relative;
+    text-align: left;
+}
+
+.mat-form-field-infix {
+    display: block;
+    position: relative;
+    flex: auto;
+    min-width: 400px;
+}
+
+
+.botMsg {
+    position: relative;
+    background-color: #8FBC8F;
+    color: #ffffff;
+    padding:5px 10px;
+    border-radius:100px;
+    margin:10px 0;
+    display:table;
+    text-align: right;
+}
+
+.userMsg {
+    position: relative;
+    background-color: #2d67ff;
+    color: #ffffff;
+    padding:5px 10px;
+    border-radius:100px;
+    display:table;
+    margin:10px 0;
+}
