@@ -48,7 +48,25 @@ export class PocScreenComponent {
     this.sendMessageField.nativeElement.focus();
 
     console.log('BOT is on the way !!');
+    console.log(this.chatInput);
+    if(this.chatInput=="@Bot" || this.chatInput=="@bot" || this.chatInput=="hello" || this.chatInput=="Hello" || this.chatInput=="HELLO"){
+      let chatMsg = {
+        "key": "BOT",
+        "value": "Hi !!, Your name please :)"
+      };
+      this.chatConv.push(chatMsg);
+      this.chatInput = "";
+      }else if(this.chatInput != "") {
+      let chatMsg = {
+        "key": "BOT",
+        "value": "Sorry, I'm new to this world - Right now in learning phase"
+      };
+    this.chatConv.push(chatMsg);
+    }else {
+
+    }
     
     // Please have your logic here
   
+}
 }

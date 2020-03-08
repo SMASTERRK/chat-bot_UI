@@ -1,0 +1,76 @@
+.full-width-input {
+  width: 100%;
+}
+mat-card {
+  max-width: 800px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.refresh-button {
+  margin: 16px 8px;
+  font-family: tahoma;
+  margin-top: 0.5px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  flex: 1 1 auto;
+}
+.mat-sidenav-content {
+  display: flex;
+  flex: 1 1 auto;
+}
+.mat-sidenav-container {
+  display: flex;
+}
+td {
+  padding-right: 20px;
+}​
+
+.logout-button {
+  margin: 10px 8px;
+  font-family: tahoma;
+  margin-top: 2px;
+  margin-right: 6px;
+  position:absolute;
+  top:1;
+  right:0;
+}
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+button {
+  top:0;
+  right:0;
+}
+
+.flex-class {
+  flex: 1 1 auto;
+}
+.mat-toolbar-class{
+  color:white;
+}
+.mat-toolbar.mat-primary {
+  background: lightskyblue;
+  color: white;
+}
+
+.menu-buttons-class {
+  margin: 10px 8px;
+  font-family: tahoma;
+  position:absolute;
+  top:1;
+  right:0;
+}
+
+
+

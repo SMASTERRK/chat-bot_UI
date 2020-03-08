@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PocScreenComponent } from './poc-screen/poc-screen.component';
+import { LoginComponent } from './login-component//login-component.component';
+import { HomeComponent } from './home/home.component';
 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -52,7 +54,9 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    PocScreenComponent
+    PocScreenComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserAnimationsModule,
